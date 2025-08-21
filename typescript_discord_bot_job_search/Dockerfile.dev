@@ -3,5 +3,4 @@ WORKDIR /api
 COPY . .
 WORKDIR /api/app
 RUN npm install && npx tsc && npx nodemon -v
-EXPOSE 3000
 CMD ["npx", "nodemon", "--verbose", "./src/app.ts"]

@@ -3,5 +3,4 @@ WORKDIR /api
 COPY . .
 WORKDIR /api/app
 RUN npm install && npx tsc
-EXPOSE 3000
 CMD ["node", "./build/src/app.js"]

@@ -29,8 +29,6 @@ services:
     restart: always
     depends_on:
       - postgres
-    ports:
-      - ${APP_PORT}:${APP_PORT}
     volumes:
       - ./app/src:/api/app/src
 
