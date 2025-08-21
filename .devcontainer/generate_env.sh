@@ -1,5 +1,5 @@
 #!/bin/bash
-cat <<EOF > .env
+cat <<EOF > typescript_discord_bot_job_search/.env
 DB_DEPENDENCY_NAME=${DB_DEPENDENCY_NAME}
 POSTGRES_PORT=${POSTGRES_PORT}
 POSTGRES_USER=${POSTGRES_USER}
